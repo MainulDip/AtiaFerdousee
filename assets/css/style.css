@@ -44,6 +44,7 @@ Table of Content:
 /* @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700"); */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html { font-size: 14px; }
 .list {
   list-style: none;
   margin: 0px;
@@ -659,7 +660,7 @@ h6 {
 }
 .section-one-text-con h1 {
   border-bottom: 1px solid rgb(222 222 222);
-  font-size: 6rem;
+  font-size: 4rem;
   letter-spacing: 1px;
 }
 
@@ -687,7 +688,7 @@ h6 {
   line-height: 90px;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 /* Section Two */
 
@@ -701,10 +702,24 @@ h6 {
 }
 
 @-moz-document url-prefix() {
-  .section-one-text-con h1 {
+  /* .section-one-text-con h1 {
     font-size: 3rem;
   }
   .header_area .navbar .nav .nav-item .nav-link {
     font-size: 1rem;
+  } */
+}
+*{border: 1px solid red;}
+
+/* Responsive */
+
+@media (max-width: 768px){
+  .home_banner_area .box_1620{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home_banner_area .banner_inner .banner_content {
+    padding: 0!important;
+    width: 100%;
   }
 }
