@@ -717,6 +717,12 @@ h6 {
 .footer-area .f_widget .ab_widget {
   margin-bottom: 0 !important;
 }
+@media (max-width: 1199px) {
+  .section-one .media-body {
+    padding-left: 0!important;
+    margin-left: 0!important;
+  }
+}
 @media (max-width: 768px) {
   .section-one-text-con h1 {
     font-size: 3rem;
@@ -732,8 +738,8 @@ h6 {
 }
 @media (max-width: 560px) {
   .section-one .media-body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
   }
 }
 @media (max-width: 425px) {
