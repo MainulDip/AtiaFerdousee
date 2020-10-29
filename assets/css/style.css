@@ -324,7 +324,7 @@ button:focus {
   min-height: 700px;
   border-radius: 12px;
   position: relative;
-  bottom: -200px;
+  bottom: -174px;
   background: #fff;
   padding: 30px;
   box-shadow: 1px 1px 7px 0px rgba(153, 153, 153, 0.3);
@@ -617,7 +617,7 @@ h6 {
 }
 .section-one-text-con h1 {
   border-bottom: 1px solid rgb(222 222 222);
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 1px;
 }
 
@@ -641,7 +641,7 @@ h6 {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-  line-height: 90px;
+  line-height: 77px;
   letter-spacing: 1px;
   text-transform: capitalize;
   font-size: 1.4rem;
@@ -719,3 +719,4 @@ p, ul, li, h2, h4 { color: #222222!important; }
 .fsd-box-shadow-img {
   box-shadow: 1px 1px 7px 0px rgba(153, 153, 153, 0.3);
 }
+.navbar-brand h2 { font-size: 2rem; }
